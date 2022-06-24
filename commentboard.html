@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言板</title>
+     <!-- 指明接下来的链接是一个样式表，链接本页面的css -->
+    <link rel="stylesheet" href="./css/commentboard.css">
+</head>
+
+<!-- 在body部分设置背景图片，定义字体为“宋体”，大小为16px，行间距为25px -->
+<body>
+    <!-- 用一个一行五列的表格来表示页眉导航区 -->
+    <table width="100%" class="nav">
+        <tr>
+            <!-- 导航区的第一列放入图片logo -->
+            <td><img src="./images/logo1.png" height="100" alt="homepage logo"></td>
+            <!-- 导航区的后面几列放入超链接，方便跳转到对应页面 -->
+            <td width="100" text-align="center">
+                <a href="index.html">主页</a>
+            </td>
+            <td width="100" text-align="center">
+               <a href="trace.html">我的足迹</a>
+           </td>
+           <td width="100" text-align="center"> 
+               <a href="hobby.html">我的爱好</a>
+            <td width="100" text-align="center"> 
+               <a href="photo.html">我的相册</a>
+           </td>
+            <td width="100" text-align="center">
+               <a href="commentboard.html">留言板</a>
+           </td>
+        </tr>
+   </table>
+
+   
+    <!-- form是表单标签，意味着接下来的内容都是表单部分 -->
+    <!-- action属性包含服务器脚本的url，
+        post表示用post的方法向服务器提交表单数据 -->
+   <form action="http://www.starbuzzcoffee.com/processorder.php" method="post" class="form">
+    <div class="title">谢谢你一直看到最后！如果你有兴趣，不妨填填下方问卷，交个朋友吧！</div>
+    
+    <!-- 将表单内容分成两列，设置一个多行两列的表格，宽度固定为800px -->
+    <!-- 左边是表单每项内容的简要描述，右边是作答区 -->
+    <table width="800" class="main">
+            <tr>
+                <!-- 左侧单元格样式为left，设置成文本右对齐 -->
+                <!-- 右侧单元格为right类，保持默认的左对齐，为美观设置高度为30px -->
+                <td class="left">姓名：</td>
+                <td class="right">
+                    <!-- input用于创造控件，type的属性值为text表示将生成一个文本输入空白区域 -->
+                    <!-- name属性相当于用户输入数据的一个标识符，value表示控件显示出来的内容 -->
+                    <!-- placeholder表示在不做任何选择的情况下控件上默认显示的内容 -->
+                    <!-- required表示必填项 -->
+                    <input type="text" name="name" value="" placeholder="" required> 
+                </td>
+            </tr>
+            <tr>
+                <td class="left">性别：</td>
+                <td class="right">
+                    <!-- type属性值为radio表示单选按钮输入，一次只能从一组选项中选一个 -->
+                    <!-- 注意表示这几个控件是一组时，name值要一样 -->
+                    <!-- checked表示在没有填写时页面默认的选项 -->
+                    <input type="radio" name="sex" value="男">男
+                    <input type="radio" name="sex" value="女" checked>女
+                </td>
+            </tr>
+            <tr>
+                <td class="left">年龄：</td>
+                <td class="right">
+                    <!-- type属性值为number表示数字输入控件，限制驶入的内容只能为数字 -->
+                    <!-- min和max指定允许输入的最大最小值 -->
+                    <input type="number" name="age" min="1" max="1000"> 
+                </td>
+            </tr>
+            <tr>
+                <td class="left">国籍/地区：</td>
+                <td class="right">
+                    <input type="text" name="nation" value="" placeholder="" required> 
+                </td>
+            </tr>
+            <tr>
+                <td class="left">联系方式：</td>
+                <td class="right">
+                    <!-- type属性值为tel表示输入电话号码 -->
+                    <input type="tel" name="phone" value="" placeholder="" required> 
+                </td>
+            </tr>
+            <tr>
+                <td class="left">兴趣爱好：</td>
+                <td class="right">
+                    <!-- type属性值为checkbox表示复选框输入控件，表示一组控件的复选框必须有相同的name值 -->
+                    <input type="checkbox" name="hobby" value="cook"> 烹饪
+                    <input type="checkbox" name="hobby" value="travel" > 旅游 <br> 
+                    <input type="checkbox" name="hobby" value="photography"> 摄影
+                    <input type="checkbox" name="hobby" value="sports"> 体育运动 <br>
+                    <input type="checkbox" name="hobby" value="others" checked> 其它
+                </td>
+            </tr>
+            <tr>
+                <td class="left">还有什么想对我说的？</td>
+                <td class="right">
+                    <!-- textarea表示大段文本的输入 -->
+                    <textarea name="comments"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="left"></td>
+                <td class="right">
+                    <!-- type属性值为submit，创建一个提交按钮 -->
+                    <input type="submit" value="塞进悄悄话小纸盒">
+                </td>
+            </tr>   
+        </table>
+       
+
+   </form>
+
+   <footer class="footer">
+        &copy; 2022, Sun Zouchi's blog <br>
+        All trademarks and registered trademarks appearing on 
+        this site are the property of their respective owners.
+   </footer>
+
+</body>
+</html>

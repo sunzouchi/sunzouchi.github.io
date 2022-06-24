@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的足迹</title>
+    <!-- 指明接下来的链接是一个样式表，链接本页面的css -->
+    <link rel="stylesheet" href="./css/trace.css">
+</head>
+<!-- 在body部分设置背景图片，定义字体为“宋体”，大小为16px，行间距为25px -->
+<body>
+    <table width="100%" class="nav">
+         <!-- 用一个一行五列的表格来表示页眉导航区 -->
+        <tr>
+            <!-- 导航区的第一列放入图片logo -->
+            <td><img src="./images/logo1.png" height="100" alt="homepage logo"></td>
+            <td width="100" text-align="center">
+                <a href="index.html">主页</a>
+            </td>
+            <td width="100" text-align="center">
+                <a href="trace.html">我的足迹</a>
+           </td>
+           <td width="100" text-align="center"> 
+            <a href="hobby.html">我的爱好</a>
+        </td>
+            <td width="100" text-align="center"> 
+               <a href="photo.html">我的相册</a>
+           </td>
+            <td width="100" text-align="center">
+               <a href="commentboard.html">留言板</a>
+           </td>
+        </tr>
+   </table>
+    
+    <!-- 同样利用表格作为盒模型，这里采用另一种构造表格的方法，在css里
+         通过tableContainer表示table，tableRow表示tr -->
+    <!-- tableContainer类和sidebar类形成两栏结构 -->
+    <!-- id表示样式只用一次，class表示样式可使用多次 -->
+    <div id="tableContainer">
+        <div id="tableRow">
+            <!-- 用main设置主体内容区 -->
+            <div id="main">
+                <div class="title">丽江古镇</div> 
+                <!-- diary类用于设置游记部分文字的格式 -->
+                <div class="diary">
+                    <!-- &nbsp;表示空格，这里用于标识首行缩进 -->
+                    &nbsp;&nbsp;到了丽江，终于看到了魂牵梦萦的古城。古老的砖木房屋一栋栋紧挨着，颤巍巍的已经有些倾斜了，
+                    其余的便次第将这倾斜小心翼翼地传递下去。石板铺的街道承载不动太多旧事，已经有些凹陷了，
+                    油腻腻的五花石板早就埋没了当年的棱角，一条条石头小路并着一涓涓流水一同穿街走巷，自然地串起了一条条街道，一户户人家。<br>
+                    &nbsp;&nbsp;我们住在一户纳西人家开的客栈里，每当夜幕降临，坐在四合院的天井里，遥望着天边的星星，
+                    任凭盛夏的风吹拂，静静地聆听纳西老人讲述那动人而神秘的传统。那种感觉，给久住在城市里的人一种久违的惬意。
+                    蜗居在繁华的都市里，夜空似乎不再有夜的颜色，但在丽江，却可以清晰地看到那闪烁的繁星。<br>
+                    &nbsp;&nbsp;古城外，两架大大的木水车缓缓地转着，仿佛是古城一轮又一轮的岁月轮转，发出吱吱呀呀的声响，诉说我们不知道的故事。
+                    水车上淌下的涓涓细流汇入了贯穿全城的清澈河水中。碧波荡漾，鲜红的鱼儿摇着头摆着尾徜徉在小河的怀抱里。
+                    杨柳依依，不知那树干是经过多少个春夏秋冬长成？
+                    靠在刻有浮雕的汉白玉围栏上，回头再望一眼古城，深深的小巷，窄窄的街道，悠悠古城，缭绕人心……
+                </div>
+
+                <div class="title">摩梭人家</div> 
+                <div class="diary">
+                    &nbsp;&nbsp;泸沽湖呈葫芦状，在泸沽湖中有五个全岛和三个半岛，其中，最高的那座山就是格姆女神山。
+                    女神山像一个怀孕的女神，仰卧在泸沽湖畔，守卫着泸沽湖。随后，我们坐上了摩梭小伙子划的猪槽船，前往谢瓦俄岛。
+                    在湖岸边的浅水里盛开着一种名叫海菜花的水花，许多细碎的白色花朵漂浮在水面上，给泸沽湖平添了几分雅致。
+                    听导游介绍，泸沽湖的水质达到了国家二级饮用水标准，于是我在湖中心捧起水尝了一口，湖水清凉甘甜,没有一点杂质。<br>
+                    &nbsp;&nbsp;划着划着，撑船的摩梭小伙突然唱起了歌，其他船的摩梭小伙也应和起来，愉快的歌声回荡在宽广的湖面上。
+                    天上的白云又低又厚，不停地变幻着形状，时而是展翅的凤凰，时而是蓬松的棉花糖，水中的倒影也跟着变来变去。
+                    白云、湖水、女神山，还有摩梭小伙的歌声，让我们体会到了泸沽湖那别样的风情。<br>
+                    &nbsp;&nbsp;泸沽湖的山，泸沽湖的水，泸沽湖的人，泸沽湖的一草一木，都令我难忘，令我怀念。
+                </div>
+
+                <div class="title">泰式风情</div> 
+                <div class="diary">
+                    &nbsp;&nbsp;普吉岛面临安达曼海，位于泰国的西南部，这里风景优美，物产丰富，是一个大港口和商业中心。
+                    普吉岛的海水犹如碧绿的翡翠，十分清澈。宽阔美丽的海滩，洁白无瑕的沙粒，吸引了大批游客。
+                    海里各类船只来往穿梭，溅起一片片水花。海底有很多珊瑚、海参，还有各种各样的鱼儿游来游去，有红的、蓝的、斑点的、条纹的，可爱极了。
+                    每天早上六点是看日出的最好时机，普吉岛上的日出非常美丽。当太阳透过云层照射在蔚蓝的海面，与天空中那抹美丽的朝霞交相辉映，真是美不胜收。<br>
+                    &nbsp;&nbsp;离开沙滩，我们来到普吉市区。你会感受到普吉市区的热闹非凡。大街上行人来来往往，汽车川流不息。
+                    商店里人山人海，来自近两百个国家和地区的商品琳琅满目，应有尽有，物美价廉。
+                    在普吉，一年到头人们似乎都在寻找着各种各样狂欢的理由，众多节日和丰富多彩的夜生活是普吉的特色。
+                    普吉人民热情好客，让每一位来到此地的游客忘记自己过客的身份，享受海岛风情的愉悦，让人沉醉其中。<br>
+                    &nbsp;&nbsp;普吉岛，真是印度洋上一颗耀眼的明珠！
+                </div>
+            </div>
+
+            <!-- 通过sidebar类表示边栏部分，这样整体形成两栏结构 -->
+            <div id="sidebar">
+                <p>
+                    <img src="./images/lijiang.JPG" alt="丽江古镇">
+                </p>
+                <h3>丽江古镇</h3>
+                <p class="word">
+                    丽江，云南省辖地级市，位于青藏高原东南缘，滇西北高原，金沙江中游，
+                    是国际知名旅游城市、国家历史文化名城、
+                    <!-- 用span对段落中的文字设为斜体加粗，以示强调 -->
+                    古代<span class="span">“南方丝绸之路”</span>和<span class="span">“茶马古道”</span>的重要通道。
+                </p>
+        
+                <p>
+                    <img src="./images/luguhu.JPG" alt="泸沽湖">
+                </p>
+                <h3>泸沽湖</h3>
+                <p class="word">
+                    泸沽湖，位于四川省盐源县与云南省宁蒗县交界处，为川滇共辖，
+                    湖东为盐源县泸沽湖镇，湖西为宁蒗县永宁乡，是<span class="span">中国第三大深水湖泊</span>。
+                </p>
+        
+                <p>
+                    <img src="./images/pujidao.JPG" alt="普吉岛">
+                </p>
+                <h3>普吉岛</h3>
+                <p class="word">
+                    普吉岛，位于印度洋安达曼海东南部，是泰国境内<span class="span">唯一受封</span>为省级地位的岛屿，
+                    岛上环境纯净，是一座著名的度假岛。
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚区，居中显示在页面最下方 -->
+    <footer class="footer">
+        &copy; 2022, Sun Zouchi's blog 
+        <br>
+        All trademarks and registered trademarks appearing on 
+        this site are the property of their respective owners.
+    </footer>
+</body>
+
+</html>

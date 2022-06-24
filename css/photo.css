@@ -1,0 +1,113 @@
+body {
+	/* 插入背景图片 */
+	background-image: url(../images/background.jpg);
+	/* 定义页面字体、大小、行间距、颜色 */
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 25px;
+	color: #333;
+}
+
+.nav {
+    /* 设置导航区下边线的粗细、颜色 */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #738CAA;
+	width: 800px;
+    font-size: 150%;
+    font-weight: bold;
+	/* 导航区设置凝胶布局 */
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a {
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+a:link {
+	/* 设置未访问的超链接为黑色 */
+	color: #333;
+	text-decoration: none;
+}
+a:visited {
+	/* 超链接访问后仍为黑色 */
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	/* 鼠标悬停在超链接上时变成白色 */
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	/* 正在访问的超链接也为黑色 */
+	text-decoration: none;
+	color: #333;
+}
+.main {
+	background-image: url(../images/bj.png);
+	color: #000;
+    /* 主体内容区设置凝胶布局 */
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+.title {
+	/* 设置标题的border */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #200F15;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #200F15;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	/* 设置标题的字体大小、颜色 */
+	color: #AD5A5A;
+	font-weight: bold;
+}
+
+.travelTable {
+	/* 设置凝胶布局 */
+	margin-left:      auto;
+	margin-right:     auto;
+	margin-top: 40px;
+	/* 设置表格标题位于表格下方 */
+	caption-side:     bottom;
+	/* 消除重叠的边框 */
+	border-collapse:  collapse;
+  }
+  
+  /* 设置表格中th的背景颜色 */
+  table table th {
+	background-color: #f2b6b6;
+  }
+  
+  td, th {
+	padding:          5px;
+  }
+  
+  caption {
+	font-weight: bold;
+	padding-top:      8px;
+  }
+  
+  .center {
+	text-align:       center;
+  }
+  
+  .footer{
+	font-family: 'Times New Roman', Times, serif;
+	color: #000;
+    /* 页脚区设置凝胶布局 */
+    margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	/* 文本居中显示 */
+    text-align:       center;
+    font-size:        90%;
+}

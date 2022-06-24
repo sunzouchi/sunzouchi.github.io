@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的主页</title>
+    <!-- 指明接下来的链接是一个样式表，链接本页面的css -->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<!-- 在body部分设置背景图片，定义字体为“宋体”，大小为16px，行间距为25px -->
+<body>
+    <!-- 用一个一行六列的表格来表示页眉导航区 -->
+    <table width="100%" class="nav">
+         <tr>
+             <!-- 导航区的第一列放入图片logo -->
+             <td><img src="./images/logo1.png" height="100" alt="homepage logo"></td>
+             <!-- 导航区的后面几列放入超链接，方便跳转到对应页面 -->
+             <td width="100" text-align="center">
+                 <a href="index.html">主页</a>
+             </td>
+             <td width="100" text-align="center">
+                <a href="trace.html">我的足迹</a>
+            </td>
+            <td width="100" text-align="center"> 
+                <a href="hobby.html">我的爱好</a>
+             <td width="100" text-align="center"> 
+                <a href="photo.html">我的相册</a>
+            </td>
+             <td width="100" text-align="center">
+                <a href="commentboard.html">留言板</a>
+            </td>
+         </tr>
+    </table>
+   
+    <!-- 页面的主体内容区，用表格进行凝胶布局 -->
+    <!-- 设置main部分宽度为800px，文本对齐方式为居中，
+          背景图片是有透明度的png格式图片，左右margin设为自动 -->
+    <table width="800"  text-align="center" class="main">
+        <tr>
+            <td>
+                <!-- 个人介绍部分 -->
+                <p class="introduce">
+                欢迎来到我的个人博客！<br>
+                “静若处子，动如脱兔”大概说的就是我啦~<br>
+                坐标湖北武汉，是个喜欢小动物、热爱运动、开朗外向的金牛座00后社牛~<br>
+                这是我第一次做个人博客，难免存在疏忽和不足，希望有经验的大神多多指点！<br>
+                当然啦，主要还是想要认识更多有趣的人嘛~~<br>
+                都说“好看的外表千篇一律，有趣的灵魂万里挑一”，我想这两个优点我都具备了哈哈哈！<br>
+                如果你也有兴趣的话，那就轻松看下去吧~~
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <table width="800"  text-align="center" class="main">
+        <tr>
+            <td>
+                <!-- “基本信息”作为表格中的小标题，改变其颜色样式以突出显示 -->
+                <div class="title">基本信息</div> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- 采用无序列表ul进行个人信息的列举 -->
+                <ul>
+                    <li>姓名：孙邹驰</li>
+                    <li>性别：女</li>
+                    <li>出生日期：2002.4.26</li>
+                    <li>籍贯：湖北武汉</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <table width="800"  text-align="center" class="main">
+        <tr>
+            <td>
+                <div class="title">教育经历</div> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>2008-2014：武汉市育才一小</li>
+                    <li>2014-2017：武汉市第六初级中学</li>
+                    <li>2017-2020：武汉市第六中学</li>
+                    <li>2020-至今：中南财经政法大学</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <table width="800"  text-align="center" class="main">
+        <tr>
+            <td>
+                <div class="title">获奖情况</div> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>校级“优秀志愿者”</li>
+                    <li>优秀学生二等奖学金</li>
+                    <li>全国大学生英语竞赛二等奖</li>
+                    <li>全国大学生财经素养大赛二等奖</li>
+                    <li>校操舞大赛健美操组一等奖</li>
+                    <li>校级“优秀学生干部”</li>
+                    <li>院级“最美团支书”</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <table width="800"  text-align="center" class="main">
+        <tr>
+            <td>
+                <div class="title">其他荣誉</div> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>担任信息与安全工程学院数金（双）2001班团支部书记，
+                        带领班级获校级“红旗团支部”称号</li>
+                    <li>作为本学院团支部代表参与“党团共建携手行”活动，
+                        与校内外团支部相互学习交流</li>
+                    <li>作为健美操队领队率领小组获得小组第一</li>
+                    <li>热心公益，有奉献精神，利用寒暑假时间积极投身支教</li>
+                    <li>利用假期空余时间进行实习，锻炼社会能力</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <!-- 页脚区，居中显示在页面最下方 -->
+    <footer class="footer">
+        &copy; 2022, Sun Zouchi's blog 
+        <br>
+        All trademarks and registered trademarks appearing on 
+        this site are the property of their respective owners.
+    </footer>
+    
+</body>
+</html>

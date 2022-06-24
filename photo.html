@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的相册</title>
+    <!-- 指明接下来的链接是一个样式表，链接本页面的css -->
+    <link rel="stylesheet" href="./css/photo.css">
+</head>
+
+<!-- 在body部分设置背景图片，定义字体为“宋体”，大小为16px，行间距为25px -->
+<body>
+     <!-- 用一个一行五列的表格来表示页眉导航区 -->
+    <table width="100%" class="nav">
+        <tr>
+            <!-- 导航区的第一列放入图片logo -->
+            <td><img src="./images/logo1.png" height="100" alt="homepage logo"></td>
+            <!-- 导航区的后面几列放入超链接，方便跳转到对应页面 -->"100" alt="homepage logo"></td>
+            <td width="100" text-align="center">
+                <a href="index.html">主页</a>
+            </td>
+            <td width="100" text-align="center">
+                <a href="trace.html">我的足迹</a>
+           </td>
+           <td width="100" text-align="center"> 
+                <a href="hobby.html">我的爱好</a>
+           </td>
+            <td width="100" text-align="center"> 
+               <a href="photo.html">我的相册</a>
+           </td>
+            <td width="100" text-align="center">
+               <a href="commentboard.html">留言板</a>
+           </td>
+        </tr>
+   </table>
+
+   <!-- cellspacing表示单元格间的间距为10px -->
+   <table width="800" cellspacing="10" class="main">
+    <tr>
+        <td>
+            <div class="title">我的相册</div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table width="750">
+                <!-- 一行中排放三张图片 -->
+                <tr>
+                    <td>
+                        <img src="./images/photo1.jpg" alt="拍摄于童话小镇" width="250">
+                    </td>
+                    <td>
+                        <img src="./images/photo2.jpg" alt="和好友在泸沽湖畔" width="250">
+                    </td>
+                    <td>
+                        <img src="./images/photo3.jpg" alt="和好友爬黄山" width="250">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./images/photo4.jpg" alt="拍摄于香格里拉湖畔" width="250">
+                    </td>
+                    <td>
+                        <img src="./images/photo5.jpg" alt="和妈妈一起在香格里拉" width="250">
+                    </td>
+                    <td>
+                        <img src="./images/photo6.jpg" alt="在巨石上摆拍" width="250">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./images/photo7.jpg" alt="在普吉岛酒店旁的沙滩" width="250">
+                    </td>
+                    <td>
+                        <img src="./images/photo8.jpg" alt="在黄山的山路上看山间风景" width="250">
+                    </td>
+                    <td>
+                        <img src="./images/photo9.jpg" alt="在普吉岛海滩坐游艇" width="250">
+                    </td>
+                </tr>
+
+                <!-- 显示表格 -->
+                <table class="travelTable">
+                    <!-- 标题caption -->
+                    <caption>
+                      我去过的地方
+                    </caption>
+            
+                    <tr>
+                      <!-- th表示表头，默认加粗显示 -->
+                      <th>目的地</th>
+                      <th>开始时间</th>
+                      <th>结束时间</th>
+                      <th>地理位置</th>
+                      <th>特色美食</th>
+                      <th>游玩感受</th>
+                    </tr>
+            
+                    <tr>
+                        <!-- 单元格内元素居中显示 -->
+                      <td class="center">丽江古镇</td>
+                      <td class="center">2013.7.15</td>
+                      <td class="center">2013.7.20</td>
+                      <td class="center">云南省中部</td>
+                      <td class="center">饵块、过桥米线、鲜花饼</td>
+                      <td class="center">慢节奏，气候适宜</td>
+                    </tr>
+            
+                    <tr>
+                      <td class="center">泸沽湖</td>
+                      <td class="center">2013.7.22</td>
+                      <td class="center">2013.7.25</td>
+                      <td class="center">云南省西部</td>
+                      <td class="center">摩梭红米、凉糕</td>
+                      <td class="center">水质清澈，风景宜人</td>
+                    </tr>
+            
+                    <tr>
+                      <td class="center">香格里拉</td>
+                      <td class="center">2013.7.28</td>
+                      <td class="center">2013.8.3</td>
+                      <td class="center">云南省西部</td>
+                      <td class="center">特色烧烤</td>
+                      <td class="center">海拔略高，山间气温较低</td>
+                    </tr>
+            
+                    <tr>
+                      <td class="center">黄山</td>
+                      <td class="center">2015.8.13</td>
+                      <td class="center">2015.8.17</td>
+                      <td class="center">安徽省西南部</td>
+                      <td class="center">清炒竹笋、黄山烧饼</td>
+                      <td class="center">爬山需要较强的身体素质，<br>
+                        但山间风景壮丽，日出很漂亮</td>
+                    </tr>
+            
+                    <tr>
+                      <td class="center">普吉岛</td>
+                      <td class="center">2017.7.6</td>
+                      <td class="center">2017.7.12</td>
+                      <td class="center">泰国印度洋海岸</td>
+                      <td class="center">各类海鲜、热带水果</td>
+                      <td class="center">沙滩细腻，阳光充足，<br>
+                        非常适合度假放松</td>
+                    </tr>
+                  </table>
+               
+            </table>
+        </td>
+    </tr>
+
+   </table>
+
+   <!-- 页脚区，居中显示在页面最下方 -->
+    <footer class="footer">
+        &copy; 2022, Sun Zouchi's blog 
+        <br>
+        All trademarks and registered trademarks appearing on 
+        this site are the property of their respective owners.
+    </footer>
+
+</body>
+</html>

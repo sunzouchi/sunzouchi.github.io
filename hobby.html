@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的爱好</title>
+    <!-- 指明接下来的链接是一个样式表，链接本页面的css -->
+    <link rel="stylesheet" href="./css/hobby.css">
+</head>
+
+<!-- 在body部分设置背景图片，定义字体为“宋体”，大小为16px，行间距为25px -->
+<body>
+     <!-- 用一个一行五列的表格来表示页眉导航区 -->
+    <table width="100%" class="nav">
+        <tr>
+            <!-- 导航区的第一列放入图片logo -->
+            <td><img src="./images/logo1.png" height="100" alt="homepage logo"></td>
+            <!-- 导航区的后面几列放入超链接，方便跳转到对应页面 -->
+            <td width="100" text-align="center">
+                <a href="index.html">主页</a>
+            </td>
+            <td width="100" text-align="center">
+                <a href="hobby.html">我的爱好</a>
+           </td>
+           <td width="100" text-align="center">
+            <a href="trace.html">我的足迹</a>
+           </td>
+            <td width="100" text-align="center"> 
+               <a href="photo.html">我的相册</a>
+           </td>
+            <td width="100" text-align="center">
+               <a href="commentboard.html">留言板</a>
+           </td>
+        </tr>
+   </table>
+
+
+   <table width="800"  text-align="center" class="main">
+    <tr>
+        <td>
+            <div class="title">音乐</div> 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <!-- 设置video播放控件 -->
+            <video controls autoplay width="600" height="300" class="video">
+                <source src="video/夏天的风尤克里里弹唱版.mp4">
+                <p>对不起，您的浏览器不支持此视频播放！</p>
+            </video>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <!-- 设置blockquote大段引用 -->
+            <blockquote class="blockquote">
+                夏天是个外表性感内在天真的季节<br>
+                夏夜追凉，身边的好友三三两两，<br>
+                晚风把小情侣的耳语吹到身旁，<br>
+                烧烤摊的啤酒盖碰撞，走累了开一瓶汽水，呲的一声，月光似海洋.<br>
+                阳光，迟到，操场，校服，背影，偷瞄，<br>
+                食堂，小卖部，下课，对视，躲闪，<br>
+                篮球场，白衬衫，黄昏，晚自习。<br>
+                夏天除了热，什么都好。
+            </blockquote>
+        </td>
+    </tr>
+    </table>
+
+    <table width="800"  text-align="center" class="main">
+        <tr>
+            <td>
+                <div class="title">舞蹈</div> 
+            </td>
+        </tr>
+        <tr>
+            <!-- 一个tr中有两个td，左边是文字，右边是图片 -->
+            <td>
+                <p class="wudao">
+                    多少<span class="span">芳华</span>灼灼，多少落英缤纷。残酷的从来不止是青春，还有人性，时代之殇。<br>
+                    它们纵横交错，昭示着翻手为云覆手为雨的命运辗转，还有那永远不会被泯灭的爱的微光。<br>
+                    ----严歌苓<br>
+                    白衬衫、绿军裤，我在一次次舞动中和历史对话，向观众诉说……
+                </p>
+            </td>
+            <td>
+                <img src="./images/fanghua.jpg" alt="校运会开场表演芳华" class="img">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p class="wudao">
+                    青春如歌，歌唱生活的传奇；<br>
+                    青春如舞，舞动生活的魅力。<br>
+                    <span class="span">操舞大赛</span>汇聚各类舞种，场内节奏欢快，气氛热烈;<br>
+                    我们小组身着蓝白运动套装，踩着着充满节奏感的鼓点，<br>
+                    在舞台上为观众和评委展示出充满活力的舞姿，舞出最美的青春！
+                </p>
+            </td>
+            <td>
+                <img src="./images/caowudasai.jpg" alt="操舞大赛" class="img">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p class="wudao">
+                    由于从小学习舞蹈，我在大二时选择了一直好奇的<span class="span">健美操体育专项</span>，<br>
+                    课程考核的内容就是分小组进行舞蹈的编排、训练，最后进行集体展示。<br>
+                    凭借着丰厚的舞蹈功底，小组成员们一致推荐我为组长，但是编舞不是我的长处，<br>
+                    我一直很担心这方面对小组最后成绩的影响。所幸成员们积极配合，各抒己见，<br>
+                    大家共同圆满完成了队形的编排和最后的表演，我也收获了深厚的友谊！
+                </p>
+            </td>
+            <td>
+                <img src="./images/jianmeicao.jpg" alt="健美操小组展示" class="img">
+            </td>
+        </tr>
+
+        </table>
+    
+
+     <!-- 页脚区，居中显示在页面最下方 -->
+    <footer class="footer">
+        &copy; 2022, Sun Zouchi's blog 
+        <br>
+        All trademarks and registered trademarks appearing on 
+        this site are the property of their respective owners.
+    </footer>
+
+</body>
+</html>

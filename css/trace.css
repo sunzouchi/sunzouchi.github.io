@@ -1,0 +1,146 @@
+body {
+	/* 插入背景图片 */
+	background-image: url(../images/background.jpg);
+	/* 定义页面字体、大小、行间距、颜色 */
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 25px;
+	color: #333;
+}
+
+/* 导航区样式 */
+.nav {
+	/* 设置导航区下边线的粗细、颜色 */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #738CAA;
+	width: 800px;
+    font-size: 150%;
+    font-weight: bold;
+	/* 导航区设置凝胶布局 */
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a {
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+a:link {
+	/* 设置未访问的超链接为黑色 */
+	color: #333;
+	text-decoration: none;
+}
+a:visited {
+	/* 超链接访问后仍为黑色 */
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	/* 鼠标悬停在超链接上时变成白色 */
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	/* 正在访问的超链接也为黑色 */
+	text-decoration: none;
+	color: #333;
+}
+
+h3{
+	font-family: "儒软雅黑";
+	font-weight: bold;
+	color: rgb(43, 116, 175);
+}
+
+div img{
+    width:300px;
+    height:200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.word{
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/* .main {
+	background-image: url(../images/bj.png);
+	color: #000;
+	border:solid black 2px;
+	margin-top: 20px;
+    margin-right: auto;
+	margin-left: auto;
+} */
+
+.title {
+	/* 设置标题的border */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #200F15;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #200F15;
+	padding-left: 10px;
+	margin-top: 20px;
+	/* 设置标题的字体大小、颜色 */
+	color: #AD5A5A;
+	font-weight: bold;
+}
+
+.footer{
+	font-family: 'Times New Roman', Times, serif;
+	color: #000;
+    /* 页脚区设置凝胶布局 */
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+    /* 文本居中显示 */
+	text-align:       center;
+    font-size:        90%;
+}
+
+#tableContainer {
+	/* 以表格形式展示 */
+	display: table;
+	border-spacing: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+#tableRow {
+	/* 以表格行形式展示 */
+	display: table-row;
+}
+
+#main {
+  /* 以单元格形式展示 */
+  display: table-cell;
+  background-image: url(../images/bj.png);
+  font-size:        105%;
+  padding:          50px;
+  vertical-align: top;
+}
+
+#sidebar {
+  /* 以单元格形式展示 */
+  display: table-cell;
+  text-align: center;
+  font-size:        105%;
+  padding:          30px;
+  vertical-align: top;
+  background-image: url(../images/bj.png);
+  width: 400px;
+}
+
+.diary{
+	margin-top: 20px;
+}
+
+.span{
+	/* 对文本中的个别字体设置强调 */
+	font-weight: bold;
+	font-style: italic;
+} 
